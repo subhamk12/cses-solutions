@@ -7,14 +7,14 @@
 #define vii vector<pair<int64_t,int64_t>>
 using namespace std;
 
-int take(){
-  int x;cin>>x;return x;
+int64_t take(){
+  int64_t x;cin>>x;return x;
 }
 
 int32_t main()
 {
   int64_t n;cin>>n;
-  int sum=n*(n+1)/2;
+  int64_t sum=n*(n+1)/2;
   for(int i=0;i<n-1;i++){
     sum-=take();
   }
